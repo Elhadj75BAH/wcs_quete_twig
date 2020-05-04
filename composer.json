@@ -1,0 +1,12 @@
+{
+    "name": "quete/twig",
+    "authors": [
+        {
+            "name": "Elhadj",
+            "email": "Elhadjbahbk@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}

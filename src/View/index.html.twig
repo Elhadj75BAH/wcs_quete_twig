@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+
+    <div class="row justify-content-md-center">
+
+{% for product in products %}
+
+
+        <div class="col-12 col-sm-6 col-md-4">
+    <div class="card">
+        <img src="images/{{ product }}.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{ product }}</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet. Sit iusto suscipit ut unde incidunt ut 
+                labore sequi. Et blanditiis atque rem quis nulla ut suscipit nihil qui sunt doloremque 
+                voluptatem nihil aut labore ipsa. Ut molestiae mollitia ut pariatur repudiandae et fuga 
+                vitae.</p>
+            <a href="#" class="btn btn-primary">Send</a>
+        </div>
+    </div>
+    </div>
+
+{% endfor %}
+
+    </div>
+
+
+{% endblock %}
